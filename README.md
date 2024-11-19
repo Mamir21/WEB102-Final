@@ -4,7 +4,7 @@ Submitted by: **Muhammad Amir**
 
 This web app: **Social site to share your cool Art Work!**
 
-Time spent: **X** hours spent in total
+Time spent: **15** hours spent in total
 
 ## Required Features
 
