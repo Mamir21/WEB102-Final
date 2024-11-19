@@ -41,11 +41,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-
+![ProjectFinal](https://github.com/user-attachments/assets/119cf1d3-7a9f-4200-abc5-525bad658eb6)
 
 GIF created with ...  
 [ScreenToGif](https://www.screentogif.com/) for Windows
-
 
 ## Notes
 
