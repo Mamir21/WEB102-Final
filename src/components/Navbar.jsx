@@ -15,7 +15,7 @@ const Navbar = ({ onSearch }) => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-title">
-          HobbyHub
+          CanvaConnect
         </Link>
         <form onSubmit={handleSearch} className="navbar-search">
           <input
