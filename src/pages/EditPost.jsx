@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
-import { supabase } from '../lib/supabase';
+import { supabase } from '../api/supabase';
 
 const EditPost = () => {
   const location = useLocation();
@@ -8,7 +8,6 @@ const EditPost = () => {
   const { id } = useParams();
   const { post: locationPost } = location.state || {};
 
-  // State variables for the post details
   const [title, setTitle] = useState(locationPost?.title || '');
   const [content, setContent] = useState(locationPost?.content || '');
   const [imageUrl, setImageUrl] = useState(locationPost?.image_url || '');

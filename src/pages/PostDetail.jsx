@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { supabase } from '../lib/supabase';
+import { supabase } from '../api/supabase';
 import CommentForm from '../components/CommentForm';
 
 const PostDetail = () => {
